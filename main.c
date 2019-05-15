@@ -4,16 +4,15 @@ void main()
 
 {
 
-    float kilometers;
-    float price_per_km;
-    float final_price;
+    float kilometros;
+    float preciofinal;
 
-    printf("How many kilometeres do you want to travel?\n");
-    scanf("%f",&kilometers);
+    printf("Cuantos Kilometros deseas recorrer?\n");
+    scanf("%f",&kilometros);
 
-    final_price = kilometers * 10.50;
+    preciofinal = kilometros * 10.50;
 
-    printf("Your price per kilometer is $%f",final_price);
+    printf("Tu precio por Kilometro es $%f",preciofinal);
 
 
 
